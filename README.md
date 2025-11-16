@@ -13,8 +13,8 @@ This project focuses on analyzing the sales performance of Global Mart, a compan
 ### Insights 
 Datasets
 - Kaggle Dataset Link: https://www.kaggle.com/datasets/ankitbansal06/retail-orders/data
-- Raw Datasets (to be cleaned) can be found [here](Datasets%20to%20be%20cleaned/)
-- Cleaned Datasets can be found [here](cleaned%20dataset/)
+- Raw Datasets (to be cleaned) can be found [here](Datasets//to%20be%20cleaned/)
+- Cleaned Datasets can be found [here](Datasets//cleaned%20dataset/)
   
 Data Cleaning & Analysis
 - You can explore the full Python implementation for the data cleaning phase in the [notebook](Python_cleaning.ipynb/) , which includes step-by-step code and comments.
