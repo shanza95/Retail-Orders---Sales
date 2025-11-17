@@ -52,13 +52,38 @@ Key Steps:
 
 Key Steps
 - Get the tot number of orders
+![total orders](query%20results//total%20orders.png/)
+      
 - Get the total revenue (before discounts)
+![total revenue (before discounts)](query%20results//tot%20revenue%20before%20discounts.png/)
+           
 - Get the total revenue (after discounts)
+![total revenue (after discounts)](query%20results//tot%20revenue%20after%20discounts.png/)
+
 - Get the top 5 selling products
+  
+![top 5 selling products](query%20results//top%205%20selling%20products.png/)
+
+
 - Get the total sales by region
+  
+![total sales by region](query%20results//tot%20sales%20by%20region.png/)
+
+
 - Find the most popular ship mode
+  
+![ most popular ship mode](query%20results//most%20popular%20ship%20mode.png/)
+
+
 - Get the average discount given per category
+  
+![average discount given per category](query%20results//avg%20discount%20per%20category.png/)
+
+
 - Get the most profitable product categories
+  
+![ most profitable product categories](query%20results//most%20profitable%20categories.png/)
+
 
 ### Phase 3: Build an interactive report/ Dashboard for stakeholder.
 - Regional Performance by Year
