@@ -1,4 +1,4 @@
-                                          ## Retail Orders Sales
+  # Retail Orders Sales
 
 ### Project Overview:
 This project focuses on analyzing the sales performance of Global Mart, a company that operates across multiple regions and offers a wide range of products with varying prices and discount structures. The main goal was to understand how the company is performing in terms of sales, discounts, shipping, and regional performance — and to help the business make smarter decisions using data.
