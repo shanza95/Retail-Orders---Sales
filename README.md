@@ -18,7 +18,7 @@ This project focuses on analyzing the sales performance of Global Mart, a compan
 - Cleaned Datasets can be found [here](Datasets//cleaned%20dataset/)
   
       Data Cleaning & Analysis
-- You can explore the full Python implementation for the data cleaning phase in the [notebook](Python Section.ipynb/) , which includes step-by-step code and comments.
+- You can explore the full Python implementation for the data cleaning phase in the [notebook](Python%20Section.ipynb/) , which includes step-by-step code and comments.
 - Connection file between Python & DB can be found [here](Connection.ipynb/).
 - The SQL queries utilized to inspect and perform queries can be found [here](retail.sql/)
 - An interactive dashboard can be downloaded [here](https://public.tableau.com/views/RetailOrdersDashboard_17563205021290/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
