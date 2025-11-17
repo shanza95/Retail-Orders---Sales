@@ -86,6 +86,11 @@ Key Steps
 
 
 ### Phase 3: Build an interactive report/ Dashboard for stakeholder.
+
+
+![Dashboard image](Dashboard%20image.png/)
+
+
 - Regional Performance by Year
 - Shipping Service Analysis
 - Shipping Trends Over Time
