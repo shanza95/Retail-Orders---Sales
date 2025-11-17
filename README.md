@@ -19,7 +19,7 @@ This project focuses on analyzing the sales performance of Global Mart, a compan
   
       Data Cleaning & Analysis
 - You can explore the full Python implementation for the data cleaning phase in the [notebook](Python%20Section.ipynb/) , which includes step-by-step code and comments.
-- Connection file between Python & DB can be found [here](Connection.ipynb/).
+- DB Connection file can be found [here](Connection.ipynb/).
 - The SQL queries utilized to inspect and perform queries can be found [here](retail.sql/)
 - An interactive dashboard can be downloaded [here](https://public.tableau.com/views/RetailOrdersDashboard_17563205021290/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
   
@@ -31,6 +31,37 @@ This project focuses on analyzing the sales performance of Global Mart, a compan
 | Visualization          | Tableau                         |
 | Data Storage           | CSV files                        |
 | Version Control        | GitHub                     |
+
+
+## Project Phases 
+
+### Phase 1: Data Cleaning (Python) 
+
+Key Steps:
+- Generate a JSON format token connect public API to download the dataset.
+- Unzip and Load CSV.
+- Perform Cleaning (Categorical Attributes - Numerical Attributes)
+- Feature Engineering
+- Identified and corrected invalid timestamps using pd.to_datetime() and error coercion.
+- Removed duplicate/ empty content entries from three datasets.
+- Stored cleaned CSV's as user_viewing_data.csv, content_library.csv, and subscription_data.csv.
+- Create a connection to DB.
+
+  
+### Phase 2: SQL Analysis
+
+Key Steps
+- Get the tot number of orders
+- Get the total revenue (before discounts)
+- Get the total revenue (after discounts)
+- Get the top 5 selling products
+- Get the total sales by region
+- Find the most popular ship mode
+- Get the average discount given per category
+- Get the most profitable product categories
+
+### Phase 3: Build an interactive report/ Dashboard for stakeholder.
+
 
 ## Next Steps:
 I plan to continue this project by visualizing the results in Tableau. This will include:
