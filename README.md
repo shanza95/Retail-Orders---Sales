@@ -61,13 +61,14 @@ Key Steps
 - Get the most profitable product categories
 
 ### Phase 3: Build an interactive report/ Dashboard for stakeholder.
-
-
-## Next Steps:
-I plan to continue this project by visualizing the results in Tableau. This will include:
-- Regional Performance Dashboards
+- Regional Performance by Year
 - Shipping Service Analysis
+- Shipping Trends Over Time
+- Shipping Performance by Region
 - Product Performance and Trends
-- Interactive visualizations for better business insights
+- Product Quality Sold vs. Profitability
+- Top N Products by Sales
+- Discount Impact Analysis
+
 
 
