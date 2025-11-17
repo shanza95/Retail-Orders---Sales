@@ -17,7 +17,7 @@ This project focuses on analyzing the sales performance of Global Mart, a compan
 - Raw Datasets (to be cleaned) can be found [here](Datasets//to%20be%20cleaned/)
 - Cleaned Datasets can be found [here](Datasets//cleaned%20dataset/)
   
-      Data Cleaning & Analysis
+        Data Cleaning & Analysis
 - You can explore the full Python implementation for the data cleaning phase in the [notebook](Python%20Section.ipynb/) , which includes step-by-step code and comments.
 - DB Connection file can be found [here](Connection.ipynb/).
 - The SQL queries utilized to inspect and perform queries can be found [here](retail.sql/)
@@ -71,8 +71,8 @@ Key Steps
 
 
 - Find the most popular ship mode
-  
-![ most popular ship mode](query%20results//most%20popular%20ship%20mode.png/)
+
+![most popular ship mode](query%20results//most%20popular%20ship%20mode.png/)
 
 
 - Get the average discount given per category
@@ -82,23 +82,48 @@ Key Steps
 
 - Get the most profitable product categories
   
-![ most profitable product categories](query%20results//most%20profitable%20categories.png/)
+![most profitable product categories](query%20results//most%20profitable%20categories.png/)
 
 
-### Phase 3: Build an interactive report/ Dashboard for stakeholder.
-
+### Phase 3: Retail Sales & Fulfillment Dashboard — Analytical Summary for stakeholder.
 
 ![Dashboard image](Dashboard%20image.png/)
 
 
-- Regional Performance by Year
-- Shipping Service Analysis
-- Shipping Trends Over Time
-- Shipping Performance by Region
-- Product Performance and Trends
-- Product Quality Sold vs. Profitability
-- Top N Products by Sales
-- Discount Impact Analysis
+This dashboard provides a comprehensive view of retail performance across sales, profitability, product categories, shipping behavior, and regional trends. It is designed to help stakeholders quickly identify growth drivers, operational bottlenecks, and opportunities for optimization.
 
+Key Insights
+
+      - Regional Performance: 
+The West and East regions lead in sales and profit, while the South shows steady year-over-year improvement.
+
+      - Shipping Behavior:
+Standard Class dominates order volume, indicating strong customer preference for cost-effective shipping. Second and First Class serve as a mid-tier options with moderate utilization. Same Day shipping has minimal adoption, suggesting either low demand or pricing constraints. 
+
+      - Shipping Trends Over Time: 
+Seasonal shipping trends show expected peaks around October-December, aligning with typical retail cycles.
+
+      - Product Categories:
+
+Technology provides the highest per-unit value despite low order counts, Furniture drives sizableshows strong revenue but requires careful discount management, Office Supplies contributes steady high-volume sales.
+
+      - Top Products by Sales: 
+Items like Tables, Binders, Phones, and Machines generate the highest overall revenue.
+
+      - Profit vs. Quantity: 
+The horizontal bar chart highlights notable contrasts between high-volume and high-profit items. Products like Chairs and Storage move large quantities, while certain Technology and Office Supply items deliver outsized profit per unit. This helps offering opportunities for targeted pricing or upselling.
+
+      - Discount Impact: 
+The discount analysis panel helps assess how markdowns influence product performance. Categories like Furniture and Office Supplies are more sensitive to discounting, while Technology remains stable with minimal discounting.
+
+
+## Overall Takeaways
+
+The business demonstrates healthy, distributed growth across regions and categories.
+- Standard shipping remains the most preferred method by customers.
+- Sales are a mix of high-volume items and high-profit tech products.
+- Discount strategies should be evaluated carefully, specifically for Furniture and Office Supplies to protect profits.
+
+This dashboard enables quick, data-driven decision-making across sales, fulfillment, and product strategy—and serves as a foundation for deeper KPI monitoring and forecasting.
 
 
