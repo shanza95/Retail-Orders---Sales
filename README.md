@@ -53,12 +53,15 @@ Key Steps:
 
 Key Steps
 - Get the tot number of orders
+  
 ![total orders](query%20results//total%20orders.png/)
       
 - Get the total revenue (before discounts)
+  
 ![total revenue (before discounts)](query%20results//tot%20revenue%20before%20discounts.png/)
            
 - Get the total revenue (after discounts)
+  
 ![total revenue (after discounts)](query%20results//tot%20revenue%20after%20discounts.png/)
 
 - Get the top 5 selling products
