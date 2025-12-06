@@ -12,12 +12,13 @@ This project focuses on analyzing the sales performance of Global Mart, a compan
 - Support data-driven decision-making
 
 ## Insights 
-      Datasets
+
+  **Datasets**
 - Kaggle Dataset Link: https://www.kaggle.com/datasets/ankitbansal06/retail-orders/data
 - Raw Datasets (to be cleaned) can be found [here](Datasets//to%20be%20cleaned/)
 - Cleaned Datasets can be found [here](Datasets//cleaned%20dataset/)
   
-        Data Cleaning & Analysis
+  **Data Cleaning & Analysis**
 - You can explore the full Python implementation for the data cleaning phase in the [notebook](Python%20Section.ipynb/) , which includes step-by-step code and comments.
 - DB Connection file can be found [here](Connection.ipynb/).
 - The SQL queries utilized to inspect and perform queries can be found [here](retail.sql/)
@@ -98,27 +99,37 @@ This dashboard provides a comprehensive view of retail performance across sales,
 
 Key Insights
 
-      - Regional Performance: 
-The West and East regions lead in sales and profit, while the South shows steady year-over-year improvement.
+   -   **Regional Performance:**
+     
+        The West and East regions lead in sales and profit, while the South shows steady year-over-year improvement.
 
-      - Shipping Behavior:
-Standard Class dominates order volume, indicating strong customer preference for cost-effective shipping. Second and First Class serve as a mid-tier options with moderate utilization. Same Day shipping has minimal adoption, suggesting either low demand or pricing constraints. 
+  -   **Shipping Behavior:**
 
-      - Shipping Trends Over Time: 
-Seasonal shipping trends show expected peaks around October-December, aligning with typical retail cycles.
+       -   Standard Class dominates order volume, indicating strong customer preference for cost-effective shipping.
+       -   Second and First Class serve as a mid-tier options with moderate utilization.
+       -   Same Day shipping has minimal adoption, suggesting either low demand or pricing constraints. 
 
-      - Product Categories:
+  -   **Shipping Trends Over Time:** 
 
-Technology provides the highest per-unit value despite low order counts, Furniture drives sizableshows strong revenue but requires careful discount management, Office Supplies contributes steady high-volume sales.
+      Seasonal shipping trends show expected peaks around October-December, aligning with typical retail cycles.
 
-      - Top Products by Sales: 
-Items like Tables, Binders, Phones, and Machines generate the highest overall revenue.
+  -    **Product Categories:**
 
-      - Profit vs. Quantity: 
-The horizontal bar chart highlights notable contrasts between high-volume and high-profit items. Products like Chairs and Storage move large quantities, while certain Technology and Office Supply items deliver outsized profit per unit. This helps offering opportunities for targeted pricing or upselling.
+        Technology provides the highest per-unit value despite low order counts, Furniture drives sizableshows strong revenue but requires careful discount management, Office Supplies contributes steady high-volume sales.
 
-      - Discount Impact: 
-The discount analysis panel helps assess how markdowns influence product performance. Categories like Furniture and Office Supplies are more sensitive to discounting, while Technology remains stable with minimal discounting.
+  -   **Top Products by Sales:** 
+
+      Items like Tables, Binders, Phones, and Machines generate the highest overall revenue.
+
+  -  **Profit vs. Quantity:** 
+
+     The horizontal bar chart highlights notable contrasts between high-volume and high-profit items.
+     Products like Chairs and Storage move large quantities, while certain Technology and Office Supply items deliver outsized profit per unit. This helps offering opportunities for targeted pricing or upselling.
+
+  -    **Discount Impact:** 
+
+        The discount analysis panel helps assess how markdowns influence product performance.
+       Categories like Furniture and Office Supplies are more sensitive to discounting, while Technology remains stable with minimal discounting.
 
 
 ## Overall Takeaways
